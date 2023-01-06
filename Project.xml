@@ -100,7 +100,7 @@
 	<haxelib name="faxe" if='switch'/>
 	<haxelib name="hxCodec" if="VIDEOS_ALLOWED"/>
 	<haxelib name="discord_rpc" if="desktop"/>  <!-- haxelib git hxCodec https://github.com/polybiusproxy/hxCodec --> 
-	<haxelib name="HxShaders"/>
+	<haxelib name="hxShaders"/> <!-- haxelib git hxShaders https://github.com/JonnycatMeow/hxShaders.git --> 
 	<!-- <haxelib name="hxcpp-debug-server" if="desktop"/> -->
 
 	<!-- <haxelib name="markdown" /> -->
