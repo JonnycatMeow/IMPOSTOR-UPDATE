@@ -2,7 +2,7 @@ package;
 
 import openfl.display.BitmapData;
 import flixel.FlxBasic;
-import flixel.system.FlxAssets.FlxShader;
+import FlxShader;
 
 class HeatwaveShader extends FlxBasic
 {
