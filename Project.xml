@@ -46,7 +46,7 @@
 	<!-- PSYCH ENGINE CUSTOMIZATION -->
 	<define name="MODS_ALLOWED" if="desktop" />
 	<define name="LUA_ALLOWED" if="desktop" />
-	<define name="VIDEOS_ALLOWED" if="web || windows" unless="32"/>
+	<define name="VIDEOS_ALLOWED" if="desktop||android"/>
 
 	<!-- <define name="PRELOAD_ALL" /> -->
 	<define name="PRELOAD_ALL" unless="web" />
@@ -65,8 +65,7 @@
 		<library name="impostor"      preload="false" />
 	</section>
 	
-	<assets path="plugins/"             rename=''               if="VIDEOS_ALLOWED windows" />
-	<assets path="dlls/"                rename=''               if="VIDEOS_ALLOWED windows" />
+
 	<assets path="assets/videos"        library="videos"        if="VIDEOS_ALLOWED"/>
 	<assets path="assets/songs"         library="songs"         exclude="*.ogg" if="web"/>
 	<assets path="assets/songs"         library="songs"         exclude="*.mp3" unless="web"/>
@@ -100,7 +99,7 @@
 	<haxelib name="faxe" if='switch'/>
 	<haxelib name="hxCodec" if="VIDEOS_ALLOWED"/>
 	<haxelib name="discord_rpc" if="desktop"/>  <!-- haxelib git hxCodec https://github.com/polybiusproxy/hxCodec --> 
-	<haxelib name="hxShaders"/> <!-- haxelib git hxShaders https://github.com/JonnycatMeow/hxShaders.git --> 
+	<haxelib name="hxShaders"/> <!-- haxelib git hxShaders https://github.com/JonnycatMeow/hxShaders.git (for the broken Shaders) --> 
 	<!-- <haxelib name="hxcpp-debug-server" if="desktop"/> -->
 
 	<!-- <haxelib name="markdown" /> -->
