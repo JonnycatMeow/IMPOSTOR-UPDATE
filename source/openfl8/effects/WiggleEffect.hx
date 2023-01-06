@@ -1,6 +1,6 @@
 package openfl8.effects;
 
-import flixel.system.FlxAssets.FlxShader;
+import FlxShader;
 
 enum WiggleEffectType
 {
