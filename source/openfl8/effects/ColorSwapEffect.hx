@@ -1,7 +1,7 @@
 package openfl8.effects;
 
 import flixel.util.FlxColor;
-import flixel.system.FlxAssets.FlxShader;
+import FlxShader;
 
 class ColorSwapEffect
 {
