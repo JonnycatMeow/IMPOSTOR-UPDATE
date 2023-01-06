@@ -1,6 +1,6 @@
 package openfl8.blends;
 
-import flixel.system.FlxAssets.FlxShader;
+import FlxShader;
 
 class MultiplyShader extends FlxShader
 {
