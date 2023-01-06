@@ -41,7 +41,7 @@ jobs:
           haxelib git hscript-ex https://github.com/ianharrigan/hscript-ex
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc 
           haxelib git hxShaders https://github.com/JonnycatMeow/hxShaders.git
-          haxelib git https://github.com/JWambaugh/TJSON
+          haxelib git tjson https://github.com/JWambaugh/TJSON.git
           haxelib install hxcpp-debug-server
           haxelib list
 
