@@ -10,8 +10,10 @@ import flixel.text.FlxText;
 import flixel.util.FlxColor;
 import openfl.media.Video;
 import openfl.net.NetConnection;
-import openfl.net.NetStream;
-import vlc.VlcBitmap;
+import openfl.net.NetStream; 
+#if VIDEOS_ALLOWED
+import vlc.VlcBitmap; 
+#end 
 
 /**
 	An adaptation of PolybiusProxy's OpenFL desktop MP4 code to not only make         
