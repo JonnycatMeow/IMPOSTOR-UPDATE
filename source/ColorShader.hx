@@ -3,7 +3,7 @@ package;
 import flixel.FlxSprite;
 import flixel.util.FlxColor;
 import flixel.FlxBasic;
-import flixel.system.FlxAssets.FlxShader;
+import FlxShader;
 
 class ColorShader extends FlxBasic // simplist fucking shader ever but idk a proper workaround IF THERES A WAY TO LMK
 {
