@@ -1,7 +1,7 @@
 package openfl8.effects;
 
 import flixel.FlxG;
-import flixel.system.FlxAssets.FlxShader;
+import FlxShader;
 
 class ShutterEffect
 {
