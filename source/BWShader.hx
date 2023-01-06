@@ -2,7 +2,7 @@ package;
 
 import flixel.util.FlxColor;
 import flixel.FlxObject;
-import flixel.system.FlxAssets.FlxShader;
+import FlxShader;
 
 //hi fabs
 // thanks rozebud
